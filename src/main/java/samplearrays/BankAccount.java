@@ -22,7 +22,7 @@ public class BankAccount {
                 }
             }
             currentBalance+=amount;
-            System.out.println(name + "deposited" + amount + "/n current balance is:"+currentBalance);
+            System.out.println(name + "deposited" + amount + "\n current balance is:"+currentBalance);
         }
         else{ System.out.println("Error");}
 
