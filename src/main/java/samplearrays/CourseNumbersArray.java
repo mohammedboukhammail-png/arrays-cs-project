@@ -17,7 +17,7 @@ public class CourseNumbersArray {
     } 
     public static boolean checksRegisteredCourses(int[] registeredCourses, int course){
         int n=registeredCourses.length;
-        for(i=0;i<n;i++){
+        for(int i=0;i<n;i++){
             if(registeredCourses[i]==course){return true;} 
         }
         return false;
